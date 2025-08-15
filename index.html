@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossário  Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Glossário Dev por Pedro Leite Fiuza</h1>
+        <p>Um guia de referência para tags HTML, propriedades CSS e conceitos de JavaScript.</p>
+    </header>
+
+    <div class="tabs-container">
+        <div class="tab-buttons">
+            <button class="tab-button active" data-tab="html">HTML</button>
+            <button class="tab-button" data-tab="css">CSS</button>
+            <button class="tab-button" data-tab="javascript">JavaScript</button>
+        </div>
+
+        <div id="html" class="tab-content active">
+            <h2>HTML </h2>
+            <div class="glossary-item">
+                <h3>&lt;div&gt;</h3>
+                <p>A tag &lt;div&gt; (divisão) é um contêiner genérico para agrupar outros elementos HTML. É frequentemente usada para aplicar estilos com CSS ou para manipular com JavaScript.</p>
+            </div>
+            <div class="glossary-item">
+                <h3>&lt;p&gt;</h3>
+                <p>A tag &lt;p&gt; define um parágrafo. Os navegadores adicionam automaticamente um espaço (margem) antes e depois de cada elemento &lt;p&gt;.</p>
+            </div>
+            <div class="glossary-item">
+                <h3>&lt;a&gt;</h3>
+                <p>A tag &lt;a&gt; (âncora) cria um hyperlink para outras páginas da web, arquivos, locais na mesma página ou endereços de e-mail.</p>
+            </div>
+            <div class="glossary-item">
+                <h3>&lt;img&gt;</h3>
+                <p>A tag &lt;img&gt; é usada para incorporar uma imagem em uma página HTML. Requer o atributo `src` para especificar o caminho da imagem.</p>
+            </div>
+        </div>
+
+        <div id="css" class="tab-content">
+            <h2>CSS </h2>
+            <div class="glossary-item">
+                <h3>color</h3>
+                <p>A propriedade <code>color</code> é usada para definir a cor do texto de um elemento.</p>
+            </div>
+            <div class="glossary-item">
+                <h3>background-color</h3>
+                <p>A propriedade <code>background-color</code> define a cor de fundo de um elemento.</p>
+            </div>
+            <div class="glossary-item">
+                <h3>font-size</h3>
+                <p>A propriedade <code>font-size</code> define o tamanho do texto.</p>
+            </div>
+            <div class="glossary-item">
+                <h3>display</h3>
+                <p>A propriedade <code>display</code> especifica o tipo de caixa de renderização usada por um elemento. Valores comuns incluem `block`, `inline`, e `flex`.</p>
+            </div>
+        </div>
+
+        <div id="javascript" class="tab-content">
+            <h2>JavaScript</h2>
+            <div class="glossary-item">
+                <h3>let</h3>
+                <p>A palavra-chave <code>let</code> declara uma variável com escopo de bloco, opcionalmente, inicializando-a com um valor.</p>
+            </div>
+            <div class="glossary-item">
+                <h3>const</h3>
+                <p>A palavra-chave <code>const</code> declara uma variável de escopo de bloco, somente leitura. Uma vez atribuído um valor, ele não pode ser reatribuído.</p>
+            </div>
+            <div class="glossary-item">
+                <h3>function</h3>
+                <p>A palavra-chave <code>function</code> é usada para declarar uma função, que é um bloco de código projetado para executar uma tarefa específica.</p>
+            </div>
+            <div class="glossary-item">
+                <h3>addEventListener</h3>
+                <p>O método <code> addEventListener </code> anexa um manipulador de eventos a um elemento, permitindo que você execute uma função quando um evento específico ocorre (como um clique).</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pedro Leite Fiuza .</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

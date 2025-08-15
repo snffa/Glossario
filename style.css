@@ -1,0 +1,98 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+
+header {
+    background-image: url(banner.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #031319;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.tabs-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.tab-buttons {
+    display: flex;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.tab-button {
+    background-color: transparent;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #495057;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.tab-button.active {
+    color: #c700ff;
+    border-bottom: 3px solid #c700ff;
+}
+
+.tab-content {
+    display: none;
+    background-color: #fff;
+    padding: 25px;
+    border: 1px solid #e9ecef;
+    border-top: none;
+    border-radius: 0 0 50px 50px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.glossary-item {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.glossary-item:last-child {
+    border-bottom: none;
+}
+
+.glossary-item h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #c700ff;
+    font-size: 1.4rem;
+}
+
+code {
+    background-color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #031319;
+    color: #fff;
+    margin-top: 2rem;
+}
